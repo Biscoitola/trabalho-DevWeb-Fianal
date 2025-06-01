@@ -152,15 +152,4 @@ footer {
 .easter-toggle:checked ~ .easter-content {
   display: block; /* Exibe o conteúdo escondido */
 }
-/* faz o footer ficar gudado*/
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
 
-main {
-  flex: 1;
-}
