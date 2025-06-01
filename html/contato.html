@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato - Meu Portfólio</title>
+  <link rel="stylesheet" href="../css/contato.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>Contato</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="contato.html" class="ativo">Contato</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+    <div id="topo"></div>
+  </header>
+
+  <main class="container-contato">
+    <form action="../html/enviadoContato.html" method="get" class="form-contato">
+      <h2>Fale comigo</h2>
+
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+
+      <label for="cidade">cidade</label>
+      <input type="text" id="cidade" name="cidade" placeholder="sua cidade" required />
+
+      <label for="estado">estado</label>
+      <input type="text" id="estado" name="estado" placeholder="Seu estado" required />
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+<script src="../js/ledTrail.js"></script>
+  <footer>
+    <p>&copy; 2025 - Guilherme de Oliveira Cruz</p>
+  </footer>
+ 
+  <a href="#topo" class="btn-topo" title="Voltar ao topo">↑</a>
+
+</body>
+
+</html>
